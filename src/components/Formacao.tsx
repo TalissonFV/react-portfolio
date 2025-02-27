@@ -16,7 +16,7 @@ const Formacao = () => {
         <h2 className="text-3xl font-bold mb-8 text-secondary">Formação Acadêmica</h2>
         <div className="space-y-8">
           {formacoes.map((formacao, index) => (
-            <div key={index} className="card-style flex items-center gap-6">
+            <div key={index} className="card-style flex items-center gap-6 bg-white">
               <img
                 src={formacao.logo}
                 className="w-24 h-24 "

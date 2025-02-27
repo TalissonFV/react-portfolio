@@ -41,7 +41,7 @@ const Habilidades = () => {
         <h2 className="text-3xl font-bold mb-8 text-secondary">Habilidades Técnicas</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {habilidades.map((habilidade, index) => (
-            <div key={index} className="card-style">
+            <div key={index} className="card-style bg-white">
               <h3 className="text-xl font-bold mb-4 text-primary">{habilidade.categoria}</h3>
               <ul className="space-y-2">
                 {habilidade.itens.map((item, i) => (

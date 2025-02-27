@@ -9,7 +9,7 @@ body {
 }
 
 .card-style {
-  @apply p-6 rounded-lg shadow-lg bg-white;
+  @apply p-6 rounded-lg shadow-lg;
 }
 
 html {
