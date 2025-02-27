@@ -55,6 +55,12 @@
 .animation-delay-700 {
   animation-delay: 0.7s;
 }
+.animation-delay-1000 {
+  animation-delay: 1s;
+}
+.animation-delay-1500 {
+  animation-delay: 1.5s;
+}
 
 .animate-splash {
   animation: splashFade 3.5s ease-out forwards;

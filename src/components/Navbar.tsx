@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import MenuMobile from './MenuMobile';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import MenuMobile from "./MenuMobile";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +10,8 @@ const Navbar: React.FC = () => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
+        behavior: "smooth",
+        block: "start",
       });
     }
     setIsOpen(false);
@@ -35,28 +35,28 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex space-x-4">
           <Link
             to="#"
-            onClick={() => handleScroll('habilidades')}
+            onClick={() => handleScroll("habilidades")}
             className="text-white hover:text-beige transition-colors"
           >
             Habilidades
           </Link>
           <Link
             to="#"
-            onClick={() => handleScroll('projetos')}
+            onClick={() => handleScroll("projetos")}
             className="text-white hover:text-beige transition-colors"
           >
             Projetos
           </Link>
           <Link
             to="#"
-            onClick={() => handleScroll('experiencia')}
+            onClick={() => handleScroll("experiencia")}
             className="text-white hover:text-beige transition-colors"
           >
             Experiência
           </Link>
           <Link
             to="#"
-            onClick={() => handleScroll('formacao')}
+            onClick={() => handleScroll("formacao")}
             className="text-white hover:text-beige transition-colors"
           >
             Formação
