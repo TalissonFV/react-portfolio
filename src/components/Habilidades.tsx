@@ -1,4 +1,3 @@
-// components/Habilidades.tsx
 import { FaJsSquare, FaDatabase, FaNodeJs, FaVuejs, FaCoffee } from 'react-icons/fa';
 import { SiTypescript, SiSharp, SiNeo4J, SiMongodb, SiFirebase, SiNestjs, SiExpress, SiNextdotjs, SiNuxtdotjs } from 'react-icons/si';
 
