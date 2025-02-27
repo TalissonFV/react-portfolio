@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
             Excellence - Digital Transformation.
           </p>
           <div className="flex mt-4">
-            <a href="mailto:talissonfvilela@gmail.com">
+            <a href="mailto:talissonfv@gmail.com">
               <button className="bg-amber-500 text-black px-6 py-3 rounded-full shadow-lg transition-all transform hover:scale-105 mr-4">
                 Contato
               </button>
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               onClick={handleDownloadResume}
               className="bg-black text-white px-6 py-3 rounded-full shadow-lg transition-all transform hover:scale-105"
             >
-              Resumé
+              Currículo
             </button>
           </div>
         </div>
