@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+}
+
+.section-spacing {
+  @apply py-16;
+}
+
+.card-style {
+  @apply p-6 rounded-lg shadow-lg bg-white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
